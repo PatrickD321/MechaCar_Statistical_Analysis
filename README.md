@@ -14,3 +14,11 @@ The r-squared (r2) value is also known as the coefficient of determination and r
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The Pearson correlation coefficient is denoted as "r" in mathematics and is used to quantify a linear relationship between two numeric variables. The Pearson correlation coefficient ranges between -1 and 1. -1 simply means the graph (line) slopes to the left (ideal negative correlation) and 1 means the line slope to the right (ideal positive correlation) Idealy the closer the slope of the line is 1 the more accurately will be prediction of the outputs (dependent variabls). As per the Pearson correlation coefficient table valves of 0.70 and above are strong correlation strengh. The the adjusted R value is 0.6825 approximately 0.70.
+
+## T-Tests on Suspension Coils
+The Total Summary Dataframe is shown in figure 2, represents the overall performace of the three Lots that produces the suspesion coils. From figure 2 the two most important are the variance and standard deviation (SD). Standard deviation is probabaly the most valuable and widely used measure of dispersion, This a reference of how tightly or far from the mean (average value), in this case PSI for the suspension coils. The greater the SD number the more variability of the bell curve is much wider. 
+![Fig2](https://user-images.githubusercontent.com/78861458/120050140-48d36c80-bfea-11eb-96b5-6da5864ec85d.png)
+
+
+
+
