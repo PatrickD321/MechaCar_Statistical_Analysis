@@ -19,11 +19,11 @@ The Pearson correlation coefficient is denoted as "r" in mathematics and is used
 The Total Summary Dataframe is shown in figure 2, represents the overall performace of the three Lots that produces the suspesion coils. From figure 2, the two most important values are the variance and standard deviation (SD). Standard deviation is probabaly the most valuable and widely used as a measure of dispersion. This a reference of how tightly or far the samples are from the mean (average) value, in this case, "PSI" for the suspension coils. The greater the SD number the more variability of the bell curve is
 and it will much wider.
 Figure 2
-![Fig2](https://user-images.githubusercontent.com/78861458/120050140-48d36c80-bfea-11eb-96b5-6da5864ec85d.png)
+![Fig2](https://user-images.githubusercontent.com/78861458/120073794-e4ef8900-c067-11eb-8115-0154716bd435.png)
 
 Screen shot shown in figure 3 of the lot_summary, gives separate production of the suspension coils between the 3 lots, Lot1, Lot2 and Lot3. Both the Mean and Median are almost the same but, variance and SD show significant differences.
 Figure 3
-![Fig3](https://user-images.githubusercontent.com/78861458/120051590-3c054780-bfef-11eb-8e3b-84e5e43ce2b6.png)
+![Fig3](https://user-images.githubusercontent.com/78861458/120073816-f173e180-c067-11eb-9151-094650badd2c.png)
 
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 The wider the bell curve the larger the standard deviation values. The current manufacturing data for all the lots, together, does not meet the design specification due to the value of both variance and standard deviation. Lot_summary dataframe, using the groupby() function, shows the Lot1 variance and SD approximatly equal to 1, the value of the SD 7.89 in the total_summary dataframe proves that specification was not met. Results of the 3 lots are as follows:
