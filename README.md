@@ -24,7 +24,12 @@ Screen shot shown in figure 3 of the lot_summary, gives separate production of t
 Figure 3
 ![Fig3](https://user-images.githubusercontent.com/78861458/120051590-3c054780-bfef-11eb-8e3b-84e5e43ce2b6.png)
 
-
+### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The wider the bell curve the larger the standard deviation. The current manufacturing data for all the lots, together, does not meet the design specification due to the value of both variance and standard deviation. Lot_summary dataframe, using the groupby() function, the Lot1 variance and SD approximatly equal to 1, this shows that, the value of the SD, 7.89 in the total_summary dataframe proves that specification was not met.
+Results of the 3 lots are as follows:
+- Lot1 specfications are met low variance and SD values
+- Lot2 slightly improvment is required SD value at 2.73
+- Lot3 this main cause why the manufactoring lots are not up specfication the SD value is 13.05
 
 
 
