@@ -16,7 +16,8 @@ The r-squared (r2) value is also known as the coefficient of determination and r
 The Pearson correlation coefficient is denoted as "r" in mathematics and is used to quantify a linear relationship between two numeric variables. The Pearson correlation coefficient ranges between -1 and 1. -1 simply means the graph (line) slopes to the left (ideal negative correlation) and 1 means the line slope to the right (ideal positive correlation) Idealy the closer the slope of the line is 1 the more accurately will be prediction of the outputs (dependent variabls). As per the Pearson correlation coefficient table valves of 0.70 and above are strong correlation strengh. The the adjusted R value is 0.6825 approximately 0.70.
 
 ## T-Tests on Suspension Coils
-The Total Summary Dataframe is shown in figure 2, represents the overall performace of the three Lots that produces the suspesion coils. From figure 2 the two most important are the variance and standard deviation (SD). Standard deviation is probabaly the most valuable and widely used measure of dispersion, This a reference of how tightly or far from the mean (average value), in this case PSI for the suspension coils. The greater the SD number the more variability of the bell curve is much wider.
+The Total Summary Dataframe is shown in figure 2, represents the overall performace of the three Lots that produces the suspesion coils. From figure 2, the two most important values are the variance and standard deviation (SD). Standard deviation is probabaly the most valuable and widely used as a measure of dispersion. This a reference of how tightly or far the samples are from the mean (average) value, in this case, "PSI" for the suspension coils. The greater the SD number the more variability of the bell curve is
+and it will much wider.
 Figure 2
 ![Fig2](https://user-images.githubusercontent.com/78861458/120050140-48d36c80-bfea-11eb-96b5-6da5864ec85d.png)
 
@@ -25,9 +26,9 @@ Figure 3
 ![Fig3](https://user-images.githubusercontent.com/78861458/120051590-3c054780-bfef-11eb-8e3b-84e5e43ce2b6.png)
 
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-The wider the bell curve the larger the standard deviation values. The current manufacturing data for all the lots, together, does not meet the design specification due to the value of both variance and standard deviation. Lot_summary dataframe, using the groupby() function, the Lot1 variance and SD approximatly equal to 1, this shows that, the value of the SD, 7.89 in the total_summary dataframe proves that specification was not met.
-Results of the 3 lots are as follows:
-- Lot1 specfications are met low variance and SD values
+The wider the bell curve the larger the standard deviation values. The current manufacturing data for all the lots, together, does not meet the design specification due to the value of both variance and standard deviation. Lot_summary dataframe, using the groupby() function, shows the Lot1 variance and SD approximatly equal to 1, the value of the SD 7.89 in the total_summary dataframe proves that specification was not met. Results of the 3 lots are as follows:
+
+- Lot1 specfications are met, low variance and SD values
 - Lot2 slightly improvment is required SD value at 2.73
 - Lot3 this main cause why the manufactoring lots are not up specfication the SD value is 13.05
 
