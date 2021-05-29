@@ -32,5 +32,12 @@ The wider the bell curve the larger the standard deviation values. The current m
 - Lot2 slightly improvment is required SD value at 2.73
 - Lot3 this main cause why the manufactoring lots are not up specfication the SD value is 13.05
 
+## T-Tests on Suspension Coils
+- An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population, Figure 4
+![Fig4](https://user-images.githubusercontent.com/78861458/120070881-a7d0ca00-c05a-11eb-9a33-27e426b3990a.png)
+
+- An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt)
+
+
 
 
