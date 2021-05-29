@@ -33,12 +33,15 @@ The wider the bell curve the larger the standard deviation values. The current m
 - Lot3 this main cause why the manufactoring lots are not up specfication the SD value is 13.05
 
 ## T-Tests on Suspension Coils
-- An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population, Figure 4
+### An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population, Figure 4
 ![Fig4](https://user-images.githubusercontent.com/78861458/120070881-a7d0ca00-c05a-11eb-9a33-27e426b3990a.png)
 
-- An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt) figure 5
+### An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt) figure 5
 ![Fig5](https://user-images.githubusercontent.com/78861458/120071678-680be180-c05e-11eb-98cd-94c331a2587d.png)
 
+### Summary of the t-test results across all manufacturing lots and for each lot.
+In the first RScript, ramdom samples taken from the Suspension Coil dataframe, tested against the entire Suspension Coil dataframe (population), statisfies the five assumptions when it comes to the one-sample t-test. The p-value = o.5297, determined from this RScript, is above the normal significant level, therefore we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. More importantly the variance between the two dataframe will be the same if the ramdom sample are a reflection of the entir data set.
+Lot3, which is the production line that does not meet the manufactoring requirements, it's p-value 0.1549, is above normal significant level and null hypothesis suggest that it is simialr to the population dataframe. However, Lot1 and Lot2, p-values 9.35e-12 and 0.0005082 respectively, are below the significant level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. This explains further that Lot3 is not meeting the production standard which has affected the overall performance of the factory. 
 
 
 
