@@ -47,6 +47,16 @@ Figure 4
  Lot3, which is the production line that does not meet the manufactoring requirements, it's p-value 0.1549, is above normal significant level and null hypothesis suggest that it is simialr to the population dataframe. However, Lot1 and Lot2, p-values 9.35e-12 and 0.0005082 respectively, are below the significant level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. This explains further that Lot3 is not meeting the production standard which has affected the overall performance of the factory. 
  
  ## Study Design: MechaCar vs Competition
+ 
+ - What metric or metrics are you going to test?
+ mpg, handling(ground clearance), AWD, fuel efficentcy(weight, lenght)
+ 
+ - What is the null hypothesis or alternative hypothesis?
+ null the means and five assumptions are the same null hypothesis, or else,
+ 
+ - What statistical test would you use to test the hypothesis? And why?
+
+- What data is needed to run the statistical test?
 
 
 
