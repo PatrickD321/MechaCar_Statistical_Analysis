@@ -16,8 +16,14 @@ The r-squared (r2) value is also known as the coefficient of determination and r
 The Pearson correlation coefficient is denoted as "r" in mathematics and is used to quantify a linear relationship between two numeric variables. The Pearson correlation coefficient ranges between -1 and 1. -1 simply means the graph (line) slopes to the left (ideal negative correlation) and 1 means the line slope to the right (ideal positive correlation) Idealy the closer the slope of the line is 1 the more accurately will be prediction of the outputs (dependent variabls). As per the Pearson correlation coefficient table valves of 0.70 and above are strong correlation strengh. The the adjusted R value is 0.6825 approximately 0.70.
 
 ## T-Tests on Suspension Coils
-The Total Summary Dataframe is shown in figure 2, represents the overall performace of the three Lots that produces the suspesion coils. From figure 2 the two most important are the variance and standard deviation (SD). Standard deviation is probabaly the most valuable and widely used measure of dispersion, This a reference of how tightly or far from the mean (average value), in this case PSI for the suspension coils. The greater the SD number the more variability of the bell curve is much wider. 
+The Total Summary Dataframe is shown in figure 2, represents the overall performace of the three Lots that produces the suspesion coils. From figure 2 the two most important are the variance and standard deviation (SD). Standard deviation is probabaly the most valuable and widely used measure of dispersion, This a reference of how tightly or far from the mean (average value), in this case PSI for the suspension coils. The greater the SD number the more variability of the bell curve is much wider.
+Figure 2
 ![Fig2](https://user-images.githubusercontent.com/78861458/120050140-48d36c80-bfea-11eb-96b5-6da5864ec85d.png)
+
+Screen shot shown in figure 3 of the lot_summary, gives separate production of the suspension coils between the 3 lots, Lot1, Lot2 and Lot3. Both the Mean and Median are almost the same but, variance and SD show significant differences.
+Figure 3
+![Fig3](https://user-images.githubusercontent.com/78861458/120051590-3c054780-bfef-11eb-8e3b-84e5e43ce2b6.png)
+
 
 
 
