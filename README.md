@@ -45,6 +45,8 @@ Figure 4
  In the first RScript, ramdom samples taken from the Suspension Coil dataframe, tested against the entire Suspension Coil dataframe (population), statisfies the five assumptions when it comes to the one-sample t-test. The p-value = o.5297, determined from this RScript, is above the normal significant level, therefore we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. More importantly the variance between the two dataframe will be the same if the ramdom sample are a reflection of the entir data set.
  
  Lot3, which is the production line that does not meet the manufactoring requirements, it's p-value 0.1549, is above normal significant level and null hypothesis suggest that it is simialr to the population dataframe. However, Lot1 and Lot2, p-values 9.35e-12 and 0.0005082 respectively, are below the significant level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. This explains further that Lot3 is not meeting the production standard which has affected the overall performance of the factory. 
+ 
+ ## Study Design: MechaCar vs Competition
 
 
 
