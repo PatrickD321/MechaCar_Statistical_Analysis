@@ -37,7 +37,8 @@ The wider the bell curve the larger the standard deviation values. The current m
 ![Fig4](https://user-images.githubusercontent.com/78861458/120070881-a7d0ca00-c05a-11eb-9a33-27e426b3990a.png)
 
 - An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt) figure 5
-![Fig5](https://user-images.githubusercontent.com/78861458/120071613-2844fa00-c05e-11eb-8588-3d238cfe2bcb.png)
+![Fig5](https://user-images.githubusercontent.com/78861458/120071678-680be180-c05e-11eb-98cd-94c331a2587d.png)
+
 
 
 
