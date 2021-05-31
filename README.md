@@ -50,15 +50,15 @@ Figure 4
  
  - What metric or metrics are you going to test?
   
-  There several metricis are involved when considering to buy a performance car. The price, realiability (maintence cost), overall performance and resale value, are some aspect that are classified as categorical data type. From the Mechacar data set ground clearance, vehicle weight, vehicle length, mpg as well as braking distance, steering precision and speed test over specific distances, for example quarter mile, mile and lap time, are know numerical data type. To see how well MechaCar perform against its competitors we will take a look at two items from each data type, speed test and vehicle resale value. 
+  There several metrics are involved when considering to buy a performance car. The price, realiability (maintence cost), overall performance and resale value, are aspects that classified as categorical data type. From the Mechacar data set, ground clearance, vehicle weight, vehicle length, mpg, as well as braking distance, steering precision and speed test over specific distances, for example quarter mile, mile and lap time, are known as numerical data type. To see how well MechaCar perform against its competitors we will take a look at two items from each data type, speed test and vehicle resale value. 
   
 - What is the null hypothesis or alternative hypothesis?
 
-Quarter mile specs is how fast each car can consistently do the distance without any major adjustment to the vehicle, the same is said for the car over the distances. This Numerical data will not be random, it will be a set of measure times for MechaCar and it's competitors,  an alternative hypothesis will be considered, since, none of the events are by chance. People preferences are determined situtations such as who was the previous owner, where the transaction is being carried out or what is the current market trend. The null hypothesis is applied here, this data set, the resale value, can be influence by other ramdon factors.
+Quarter mile specs is how fast each car can consistently do the distance without any major adjustment to the vehicle, the same is said for the car over other distances. This Numerical data will not be random, it will be a set of measure times for MechaCar and it's competitors,  an alternative hypothesis will be considered, since, none of the events are by chance. People preferences are determined situtations such as who was the previous owner, where the transaction is being carried out or what is the current market trend. The null hypothesis is applied here, this data set, the resale value, can be influence by ramdon factors.
 
 - What statistical test would you use to test the hypothesis? And why?
 
-Each statistical test are determined by the input variable type, data type and the number of variables. Quarter mile specs data set has an indendent input variable, continous data type with the mean time different for each type of car. The Two-Sample t-test can be used study this knid of performance in each group. However, the resale value data type is dependent and influenced different factors with one independent variable the Chi-Squared can be used for the comparison.
+Each statistical test are determined by the input variable type, data type and the number of variables. Quarter mile specs data set has an indendent input variable, continous data type with the mean time different for each type of car. The Two-Sample t-test can be used study this kind of performance in each group. However, the resale value data type is independent and influenced different factors with one independent variable the Chi-Squared can be used for the comparison.
 
 - What data is needed to run the statistical test?
 
