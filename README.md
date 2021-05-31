@@ -59,3 +59,7 @@ Quarter mile specs is how fast each car can consistently do the distance without
 - What statistical test would you use to test the hypothesis? And why?
 
 Each statistical test are determined by the input variable type, data type and the number of variables. Quarter mile specs data set has an indendent input variable, continous data type with the mean time different for each type of car. The Two-Sample t-test can be used study this knid of performance in each group. However, the resale value data type is dependent and influenced different factors with one independent variable the Chi-Squared can be used for the comparison.
+
+- What data is needed to run the statistical test?
+
+The type of data that is required to run the statistical is independent for both speed test and the resale value.
