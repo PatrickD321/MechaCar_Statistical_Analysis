@@ -49,4 +49,5 @@ Figure 4
  ## Study Design: MechaCar vs Competition
  
  - What metric or metrics are you going to test?
+  
   There several metricis are involved when considering to buy a performance car. The price, realiability (maintence cost), overall performance and resale value are some aspect that maybe classified as categorical. From the Mechacar data set ground clearance, vehicle weight, vehicle length, mpg as well as braking distance, steering precision and quater mile specs are data the are numerical. To see how well MechaCar perform against its competitors we will take a look at the quater mile specs and vecicle resale value. 
